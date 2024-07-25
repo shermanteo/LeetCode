@@ -1,14 +1,11 @@
 # SQL Questions from LeetCode
 
-Welcome to the SQL Questions from LeetCode repository! This project is a collection of SQL solutions to various problems sourced from LeetCode. The goal is to provide clear, efficient, and well-documented SQL queries to help you master SQL and ace those LeetCode questions.
+Welcome to the SQL Questions from LeetCode repository! This project of mine is a collection of SQL solutions to various problems sourced from LeetCode. The goal is to provide clear, efficient, and well-documented SQL queries to help me master SQL, test my knowledge about SQL and ace those LeetCode questions.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Repository Structure](#repository-structure)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -16,12 +13,11 @@ LeetCode offers a wide range of SQL problems that test various aspects of SQL qu
 
 ## Repository Structure
 
-The repository is organized as follows:
+The SQL repository is organized as follows:
 
-- `questions/`: Contains directories for different LeetCode SQL problems.
-  - Each directory is named according to the LeetCode problem number and title.
-  - Within each directory, you'll find:
-    - `README.md`: Problem description and solution breakdown.
-    - `solution.sql`: The SQL query solution for the problem.
-- `resources/`: Contains any additional resources or reference material related to SQL.
+- Name of the SQL problem with the details of the problem
+- Within each problem, there will be a question as well as an example input and output to help better visualise the expected solution.
+- At the end of the script, there will be a query which I write which will answer the question based on my thought process and logic. 
+
+
 
