@@ -139,5 +139,26 @@ insert into Examinations (student_id, subject_name) values ('1', 'Math')
 
 
 -- Start of Solution
-
+SELECT 
+ Students.student_id, 
+ Students.student_name, 
+ Subjects.subject_name, 
+ COALESCE(COUNT(Examinations.student_id), 0) AS attended_exams
+FROM 
+ Students
+CROSS JOIN 
+ Subjects
+LEFT JOIN 
+ Examinations 
+ON 
+ Students.student_id = Examinations.student_id 
+AND 
+ Subjects.subject_name = Examinations.subject_name
+GROUP BY 
+ Students.student_id, 
+ Students.student_name, 
+ Subjects.subject_name
+ORDER BY 
+ Students.student_id, 
+ Subjects.subject_name;
 -- End of Solution
