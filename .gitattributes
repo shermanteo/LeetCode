@@ -2,3 +2,10 @@
 *.sql linguist-language=sql
 *.sql text
 
+*.py linguist-detectable=true
+*.py linguist-language=python
+*.py text
+
+*.m linguist-detectable=true
+*.m linguist-language=matlab
+*.m text
