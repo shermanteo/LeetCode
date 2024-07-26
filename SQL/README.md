@@ -6,6 +6,7 @@ Welcome to the SQL Questions from LeetCode repository! This project of mine is a
 
 - [Introduction](#introduction)
 - [Repository Structure](#repository-structure)
+- [SELECT Function Exercises](#select-function-exercises)
 
 ## Introduction
 
@@ -20,4 +21,5 @@ The SQL repository is organized as follows:
 - At the end of the script, there will be a query which I write which will answer the question based on my thought process and logic. 
 
 
-
+## SELECT Exercises
+- 1757. Recyclable and Low Fat Products
