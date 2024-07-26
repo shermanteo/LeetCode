@@ -62,9 +62,14 @@ insert into Weather (id, recordDate, temperature) values ('4', '2015-01-04', '30
 
 
 -- Start of Solution
-SELECT current.id
-FROM Weather current
-JOIN Weather prev
-ON current.recordDate = DATE_ADD(prev.recordDate, INTERVAL 1 DAY)
-WHERE current.temperature > prev.temperature;
+SELECT 
+ curr.id
+FROM 
+ Weather curr
+JOIN 
+ Weather prev
+ON 
+ curr.recordDate = DATE_ADD(prev.recordDate, INTERVAL 1 DAY)
+WHERE 
+ curr.temperature > prev.temperature;
 -- End of Solution
