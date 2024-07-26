@@ -1,6 +1,20 @@
-# LeetCode SQL Solutions
+# LeetCode SQL Practice Questions and Solutions
 
 Welcome to the LeetCode SQL Solutions repository! This repository contains SQL queries and solutions to various problems from LeetCode. Each file in this repository corresponds to a specific SQL problem and offering solutions.
+
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Purpose](#purpose)
+3. [Why Learn SQL with LeetCode?](#why-learn-sql-with-leetcode)
+4. [Repository Structure](#repository-structure)
+5. [Problem Categories](#problem-categories)
+6. [Query Naming Convention](#query-naming-convention)
+
+## Introduction
+
+LeetCode offers a wide range of SQL problems that test various aspects of SQL query writing and database management. This repository aims to compile solutions to these problems, providing valuable insights and learning opportunities for anyone looking to improve their SQL skills.
 
 ## Purpose
 
@@ -34,18 +48,6 @@ Learning SQL through LeetCode offers several significant benefits:
 9. **Comprehensive Solutions**: Review multiple solutions and explanations for each problem to learn different approaches and expand your understanding of SQL.
 
 10. **Practical Experience**: Gain practical experience with SQL syntax and query optimization, which is invaluable for working with real databases in a professional setting.
-
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Repository Structure](#repository-structure)
-3. [Problem Categories](#problem-categories)
-4. [Query Naming Convention](#query-naming-convention)
-
-## Introduction
-
-LeetCode offers a wide range of SQL problems that test various aspects of SQL query writing and database management. This repository aims to compile solutions to these problems, providing valuable insights and learning opportunities for anyone looking to improve their SQL skills.
 
 
 ## Repository Structure
