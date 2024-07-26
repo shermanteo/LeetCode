@@ -61,6 +61,7 @@ From sale_id = 7, we can conclude that Apple was sold for 9000 in the year 2011.
 */
 
 
+
 -- Start of SQL Question Schema
 Create table If Not Exists Sales (sale_id int, product_id int, year int, quantity int, price int)
 Create table If Not Exists Product (product_id int, product_name varchar(10))
