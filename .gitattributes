@@ -2,6 +2,3 @@
 *.sql linguist-language=sql
 *.sql text
 
-*.py linguist-detectable=true
-*.py linguist-language=py
-*.py text
