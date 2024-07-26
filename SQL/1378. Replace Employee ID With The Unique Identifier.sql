@@ -92,8 +92,13 @@ insert into EmployeeUNI (id, unique_id) values ('90', '3')
 
 
 -- Start of Solution
-SELECT EmployeeUNI.unique_id, Employee.name
-FROM Employees
-LEFT JOIN EmployeeUNI
-ON Employees.id = EmployeeUNI.id;
+SELECT 
+ EmployeeUNI.unique_id, 
+ Employee.name
+FROM 
+ Employees
+LEFT JOIN 
+ EmployeeUNI
+ON 
+ Employees.id = EmployeeUNI.id;
 -- End of Solution
