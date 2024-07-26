@@ -50,6 +50,7 @@ Output:
 */
 
 
+
 -- Start of SQL Question Schema
 Create table If Not Exists Views (article_id int, author_id int, viewer_id int, view_date date)
 Truncate table Views
