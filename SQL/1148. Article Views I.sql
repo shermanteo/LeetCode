@@ -66,8 +66,12 @@ insert into Views (article_id, author_id, viewer_id, view_date) values ('3', '4'
 
 
 -- Start of Solution
-SELECT DISTINCT author_id AS id
-FROM Views
-WHERE author_id = viewer_id
-ORDER BY id ASC;
+SELECT 
+ DISTINCT author_id AS id
+FROM 
+ Views
+WHERE 
+ author_id = viewer_id
+ORDER BY 
+ id ASC;
 -- End of Solution
