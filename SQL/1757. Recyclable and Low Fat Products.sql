@@ -62,7 +62,10 @@ insert into Products (product_id, low_fats, recyclable) values ('4', 'N', 'N')
 
 
 -- Start of Solution
-SELECT product_id
-FROM Products
-WHERE low_fats = 'Y' and recyclable = 'Y';
+SELECT 
+ product_id
+FROM 
+ Products
+WHERE 
+ low_fats = 'Y' and recyclable = 'Y';
 -- End of Solution
