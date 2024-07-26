@@ -84,9 +84,15 @@ insert into Bonus (empId, bonus) values ('4', '2000')
 
 
 -- Start of Solution
-SELECT Employee.name, Bonus.bonus
-FROM Employee
-LEFT JOIN Bonus
-ON Employee.empId = Bonus.empid
-WHERE Bonus.bonus < 1000 OR Bonus.bonus IS NULL
+SELECT 
+ Employee.name, 
+ Bonus.bonus
+FROM 
+ Employee
+LEFT JOIN 
+ Bonus
+ON 
+ Employee.empId = Bonus.empid
+WHERE 
+ Bonus.bonus < 1000 OR Bonus.bonus IS NULL
 -- End of Solution
