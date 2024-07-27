@@ -92,20 +92,20 @@ insert into Activity (machine_id, process_id, activity_type, timestamp) values (
 
 -- Start of Solution
 SELECT 
-    curr.machine_id,
-    ROUND(AVG(curr.timestamp - prev.timestamp), 3) AS processing_time
+ curr.machine_id,
+ ROUND(AVG(curr.timestamp - prev.timestamp), 3) AS processing_time
 FROM 
-    Activity curr
+ Activity curr
 JOIN 
-    Activity prev
+ Activity prev
 ON 
-    curr.machine_id = prev.machine_id
-    AND curr.process_id = prev.process_id
-    AND curr.activity_type = 'end'
-    AND prev.activity_type = 'start'
-    AND curr.timestamp > prev.timestamp
+ curr.machine_id = prev.machine_id
+ AND curr.process_id = prev.process_id
+ AND curr.activity_type = 'end'
+ AND prev.activity_type = 'start'
+ AND curr.timestamp > prev.timestamp
 GROUP BY 
-    curr.machine_id
+ curr.machine_id
 ORDER BY 
-    curr.machine_id;
+ curr.machine_id;
 -- End of Solution
