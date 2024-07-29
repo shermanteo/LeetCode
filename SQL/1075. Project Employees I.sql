@@ -95,9 +95,9 @@ SELECT
 FROM 
  Project
 JOIN 
- ProjectAssignment ON Project.project_id = ProjectAssignment.project_id
-JOIN 
- Employee ON ProjectAssignment.employee_id = Employee.employee_id
+ Employee
+ON 
+ Project.employee_id = Employee.employee_id
 GROUP BY 
  Project.project_id
 ORDER BY
