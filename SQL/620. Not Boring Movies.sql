@@ -64,5 +64,8 @@ insert into cinema (id, movie, description, rating) values ('5', 'House card', '
 
 
 -- Start of Solution
-
+SELECT *
+FROM Cinema
+WHERE MOD(id, 2) = 1 AND description != 'boring'
+ORDER BY rating DESC;
 -- End of Solution
