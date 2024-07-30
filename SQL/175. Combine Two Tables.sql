@@ -82,5 +82,15 @@ insert into Address (addressId, personId, city, state) values ('2', '3', 'Leetco
 
 
 -- Start of Solution
-
+SELECT 
+ Person.firstName,
+ Person.lastName,
+ Address.city,
+ Address.state
+FROM
+ Person
+LEFT JOIN
+ Address
+ON 
+ Person.personId = Address.personId
 -- End of Solution
