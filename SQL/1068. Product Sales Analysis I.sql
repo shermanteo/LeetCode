@@ -79,13 +79,13 @@ insert into Product (product_id, product_name) values ('300', 'Samsung')
 
 -- Start of Solution
 SELECT 
- Product.product_name, 
- Sales.year, 
- Sales.price
+  Product.product_name, 
+  Sales.year, 
+  Sales.price
 FROM 
- Sales
+  Sales
 LEFT JOIN 
- Product
+  Product
 ON 
- Product.product_id = Sales.product_id
+  Product.product_id = Sales.product_id
 -- End of Solution
