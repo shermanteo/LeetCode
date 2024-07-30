@@ -63,12 +63,12 @@ insert into Followers (user_id, follower_id) values ('2', '1')
 
 -- Start of Solution
 SELECT 
- Followers.user_id, 
- COALESCE(COUNT(follower_id), 0) AS followers_count
+  Followers.user_id, 
+  COALESCE(COUNT(follower_id), 0) AS followers_count
 FROM 
- Followers
+  Followers
 GROUP BY 
- Followers.user_id
+  Followers.user_id
 ORDER BY 
- Followers.user_id;
+  Followers.user_id;
 -- End of Solution
