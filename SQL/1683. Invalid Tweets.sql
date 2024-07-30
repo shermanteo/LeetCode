@@ -56,9 +56,9 @@ insert into Tweets (tweet_id, content) values ('2', 'Let us make America great a
 
 -- Start of Solution
 SELECT 
- tweet_id
+  tweet_id
 FROM 
- Tweets
+  Tweets
 WHERE 
- LENGTH(content) > 15;
+  LENGTH(content) > 15;
 -- End of Solution
