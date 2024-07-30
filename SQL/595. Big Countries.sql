@@ -67,11 +67,11 @@ insert into World (name, continent, area, population, gdp) values ('Angola', 'Af
 
 -- Start of Solution
 SELECT 
- name, 
- area, 
- population
+  name, 
+  area, 
+  population
 FROM 
- World
+  World
 WHERE 
- area >= 3000000 OR population >= 25000000;
+  area >= 3000000 OR population >= 25000000;
 -- End of Solution
