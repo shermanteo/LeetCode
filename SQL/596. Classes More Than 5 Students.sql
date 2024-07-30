@@ -72,11 +72,11 @@ insert into Courses (student, class) values ('I', 'Math')
 
 -- Start of Solution
 SELECT 
- class
+  class
 FROM 
- Courses
+  Courses
 GROUP BY
- class
+  class
 HAVING
   COUNT(*) >= 5;
 -- End of Solution
