@@ -63,13 +63,13 @@ insert into Weather (id, recordDate, temperature) values ('4', '2015-01-04', '30
 
 -- Start of Solution
 SELECT 
- curr.id
+  curr.id
 FROM 
- Weather curr
+  Weather curr
 JOIN 
- Weather prev
+  Weather prev
 ON 
- curr.recordDate = DATE_ADD(prev.recordDate, INTERVAL 1 DAY)
+  curr.recordDate = DATE_ADD(prev.recordDate, INTERVAL 1 DAY)
 WHERE 
- curr.temperature > prev.temperature;
+  curr.temperature > prev.temperature;
 -- End of Solution
