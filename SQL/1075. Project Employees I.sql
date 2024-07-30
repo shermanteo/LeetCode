@@ -90,16 +90,16 @@ insert into Employee (employee_id, name, experience_years) values ('4', 'Doe', '
 
 -- Start of Solution
 SELECT 
- Project.project_id,
- ROUND(SUM(Employee.experience_years) / COUNT(Employee.employee_id), 2) AS average_years
+  Project.project_id,
+  ROUND(SUM(Employee.experience_years) / COUNT(Employee.employee_id), 2) AS average_years
 FROM 
- Project
+  Project
 JOIN 
- Employee
+  Employee
 ON 
- Project.employee_id = Employee.employee_id
+  Project.employee_id = Employee.employee_id
 GROUP BY 
- Project.project_id
+  Project.project_id
 ORDER BY
- Project.project_id;
+  Project.project_id;
 -- End of Solution
