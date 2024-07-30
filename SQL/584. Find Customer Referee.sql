@@ -65,9 +65,9 @@ insert into Customer (id, name, referee_id) values ('6', 'Mark', '2')
 
 -- Start of Solution
 SELECT 
- name
+  name
 FROM 
- Customer
+  Customer
 WHERE 
- referee_id != 2 OR referee_id IS NULL;
+  referee_id != 2 OR referee_id IS NULL;
 -- End of Solution
